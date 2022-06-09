@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      h1 {
+        margin: 0;
+      }
+      header,
+      footer {
+        background-color: #bdf2d5;
+        padding: 10px;
+        color: #4b5d67;
+      }
+
+      .menu {
+        width: 25%;
+        background-color: #f9f9f9;
+      }
+
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #f5df99;
+        color: #4b5d67;
+      }
+
+      .menu li:hover {
+        cursor: pointer;
+        background-color: #8267be;
+        color: #fff;
+      }
+
+      .col {
+        float: left;
+        padding: 15px 15px 15px 0;
+      }
+
+      .content {
+        width: 75%;
+        background-color: #ff06b7;
+      }
+
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Header</h2>
+    </header>
+
+    <main class="clearfix">
+      <div class="menu col">
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+
+      <div class="content col">
+        <h2>Komple Web Geliştirme</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+          inventore eius esse dolores doloribus iste corrupti et? Ipsa sunt
+          placeat dolore enim! Tenetur maxime ducimus eligendi, perspiciatis
+          suscipit excepturi dolores.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolore
+          voluptates, iure qui quos nihil ipsa porro voluptatem mollitia
+          provident eligendi doloremque eaque, dolores pariatur quo velit eos
+          explicabo inventore?
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <h2>Footer</h2>
+    </footer>
+  </body>
+</html>
